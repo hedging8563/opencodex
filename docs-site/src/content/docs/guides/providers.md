@@ -556,11 +556,11 @@ region-pinned EU routes, is at [opper.ai/models](https://opper.ai/models). Opper
 **TokenLab** is an OpenAI-compatible API gateway operated by TOKENLAB AI INC.
 Create a workspace [API key](https://tokenlab.sh/dashboard/api?tab=keys), then run
 `ocx provider add tokenlab` or select **TokenLab** in the dashboard's **Add provider** picker.
-The preset uses [Chat Completions](https://docs.tokenlab.sh/quickstart) and discovers models at
+The preset uses [Chat Completions](https://tokenlab.sh/docs/en/quickstart) and discovers models at
 `GET /v1/models?category=chat`, keeping only entries that declare `tool-use` capability.
 Image, video, audio, embedding and decision models are excluded from this chat preset.
 
-The [model catalog](https://docs.tokenlab.sh/api-reference/models/list-models) is public without
+The [model catalog](https://tokenlab.sh/docs/en/api-reference/models/list-models) is public without
 a key, but a supplied key is validated and scopes results to its model permissions and delivery
 policy. Use a valid key with a funded workspace for inference. `gpt-5.6-terra` is the seeded
 default; choose another discovered model if your key does not allow it. The provider and model

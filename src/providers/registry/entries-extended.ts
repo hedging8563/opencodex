@@ -1138,7 +1138,7 @@ export const PROVIDER_REGISTRY_EXTENDED: readonly ProviderRegistryEntry[] = [
     note: "EU-hosted AI gateway: one OpenAI-compatible endpoint and one key in front of 30+ providers. Bare model ids are pools (claude-sonnet-4-6, gpt-5.5) and Opper picks the route per request; vendor/model ids (anthropic/claude-sonnet-4-6) pin one provider. The catalogue is discovered live from /v3/compat/models with your key; the public list is at opper.ai/models. Token rates are the model providers' rates with no markup; Opper charges a 3% fee when you buy credits.",
   },
   {
-    // Public contract checked 2026-09-29: https://docs.tokenlab.sh/api-reference/models/list-models
+    // Public contract checked 2026-09-29: https://tokenlab.sh/docs/en/api-reference/models/list-models
     // A supplied key is validated and scopes the catalog; anonymous discovery is also public.
     id: "tokenlab",
     label: "TokenLab",
